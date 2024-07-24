@@ -1,0 +1,29 @@
+- title: Data Analyst
+  company: Goplay
+  location: Remote
+  period: Sep 2022 - Jan 2024
+  responsibilities:
+    - In charge of the process of gathering requirements and designing dashboards in Looker Studio, catering to the monitoring needs of cross-functional teams, including Marketing, Content, and Product.
+    - Leveraging OptBinning to develop creator churn risk scorecards using a dataset of 500,000+ rows of user-generated data related to live streaming behavior.
+    - Employing KMeans clustering analysis on 3000+ users to establish user segments, aiding the marketing team in understanding and utilizing customer behavior for targeted marketing strategies.
+    - Led the development of a proof of concept (POC) for content-based clustering using pre-trained BERT model word embeddings.
+    - Led the setup of Airflow for ETL pipeline automation, generating consistent data flow from and into BigQuery data warehouse.
+
+- title: Data Analyst (Internship)
+  company: Virgo
+  location: Jakarta, Indonesia
+  period: Nov 2020 - Jan 2021
+  responsibilities:
+    - Utilized SQL to query daily product performance metrics, leveraging the data to generate a monitoring dashboard.
+    - Conducted ad-hoc and in-depth analyses, extracting actionable insights that empowered the Business and Marketing teams to make informed strategic decisions.
+    - Performed cohort analysis to systematically monitor and assess product success, as well as to evaluate the effectiveness of marketing campaigns.
+    - Carried out drill-down analysis to identify the optimal target market for marketing campaigns.
+
+- title: Financial Risk Advisory (Internship)
+  company: Deloitte Indonesia
+  location: Jakarta, Indonesia
+  period: May 2019 - Oct 2019
+  responsibilities:
+    - Performed statistical analyses, including correlation and hypothesis testing, to validate data quality on diverse financial datasets, encompassing credit information and company financials provided by clients.
+    - Managed data preparation, cleaning, and preprocessing of more than 10 external sources to facilitate the development of an industrial risk rating model.
+    - Spearheaded the creation of a prototype machine learning model for credit scoring, leveraging client-specific data.
