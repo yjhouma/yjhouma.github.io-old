@@ -28,7 +28,7 @@ async function populateExperiences() {
         expDiv.className = 'experience';
         expDiv.innerHTML = `
             <h3>${exp.title}</h3>
-            <h4>${exp.company} | ${exp.location}</h4>
+            <h4>${exp.company} - ${exp.location}</h4>
             <p><em>${exp.period}</em></p>
             <ul>
                 ${exp.responsibilities.map(resp => `<li>${resp}</li>`).join('')}
