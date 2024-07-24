@@ -1,0 +1,4 @@
+- title: Content-Based Recommender System
+  description: Developed a sophisticated content-based recommender system utilizing the TMDB 5000 dataset. Implemented advanced NLP techniques, including TfIdf and SBERT, to extract features from genres, keywords, plot overviews, and directors. Applied cosine similarity to score and rank movies based on their similarities
+  tools: Python, Pandas, Scikit-learn, TfidfVectorizer, Sentence Transformer
+  link: "projects/content_based_recommender.html"
