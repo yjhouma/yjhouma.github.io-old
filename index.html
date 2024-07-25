@@ -3,60 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yohanes Jhouma Parulian Napitupulu - Data Analyst Portfolio</title>
-    <link rel="stylesheet" href="portfolio-styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <title>Yohanes Jhouma Parulian Napitupulu - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="data:,">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 </head>
-<body>
-    <header>
-        <img src="images/17220619.jpeg" alt="Yohanes Jhouma Parulian Napitupulu" class="profile-pic">
-        <h1>Yohanes Jhouma Parulian Napitupulu</h1>
-        <p>Data Scientist | Data Analyst</p>
-        <div id="contact">
-            <a href="mailto:yjhouma@gmail.com" aria-label="Email"><i data-feather="mail"></i></a>
-            <a href="https://linkedin.com/in/yjhouma/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
-            <a href="https://github.com/yjhouma" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-feather="github"></i></a>
+<body class="font-sans text-gray-800 flex">
+    <header class="bg-gray-800 text-white w-1/5 h-screen sticky top-0 p-6 overflow-y-auto">
+        <img src="/static/images/17220619.jpeg" alt="Yohanes Jhouma Parulian Napitupulu" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white">
+        <h1 class="text-2xl font-bold mb-2">Yohanes Jhouma Parulian Napitupulu</h1>
+        <p class="text-lg mb-4">Data Scientist | Data Analyst</p>
+        <div id="contact" class="flex justify-center space-x-4">
+            <a href="mailto:yjhouma@gmail.com" aria-label="Email" class="text-white hover:text-blue-300">
+                <i data-feather="mail"></i>
+            </a>
+            <a href="https://linkedin.com/in/yjhouma/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-white hover:text-blue-300">
+                <i data-feather="linkedin"></i>
+            </a>
+            <a href="https://github.com/yjhouma" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="text-white hover:text-blue-300">
+                <i data-feather="github"></i>
+            </a>
         </div>
     </header>
 
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Results-driven Data Analyst with a strong engineering background with around 2 years of experience. Proven track record of leveraging advanced analytics, machine learning, and data visualization to drive business decisions and improve product performance. Skilled in Python, SQL, and various data science tools, with a passion for turning complex datasets into actionable insights. Demonstrated ability to lead projects, automate processes, and collaborate with cross-functional teams to achieve strategic goals.</p>
+    <main class="w-4/5 p-8">
+        <section id="about" class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 text-gray-700">About Me</h2>
+            <p class="text-lg">
+                Results-driven Data Analyst with a strong engineering background with around 2 years of experience. Proven track record of leveraging advanced analytics, machine learning, and data visualization to drive business decisions and improve product performance. Skilled in Python, SQL, and various data science tools, with a passion for turning complex datasets into actionable insights. Demonstrated ability to lead projects, automate processes, and collaborate with cross-functional teams to achieve strategic goals.
+            </p>
         </section>
 
-        <section id="experience">
-            <h2>Professional Experience</h2>
-            <!-- Experience items will be dynamically added here -->
+        <section id="experience" class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 text-gray-700">Professional Experience</h2>
+            <div id="experience-container" class="space-y-1">
+                <!-- Experience items will be dynamically added here -->
+            </div>
         </section>
 
-        <section id="education">
-            <h2>Education</h2>
-            <p><strong>Institut Teknologi Bandung, Bandung</strong></p>
-            <p>Bachelor of Science, Informatics and Computer Science</p>
-            <p><em>Graduated: April 2021</em></p>
+        <section id="education" class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 text-gray-700">Education</h2>
+            <div class="bg-gray-100 p-4 rounded">
+                <h3 class="text-xl font-semibold">Institut Teknologi Bandung, Bandung</h3>
+                <p class="text-lg">Bachelor of Science, Informatics and Computer Science</p>
+                <p class="italic">Graduated: April 2021</p>
+            </div>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
+        <section id="projects" class="mb-12">
+            <h2 class="text-3xl font-bold mb-4 text-gray-700">Projects</h2>
             <!-- Project items will be dynamically added here -->
         </section>
 
         <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills">
-                <!-- Skills will be dynamically added here -->
+            <h2 class="text-3xl font-bold mb-4 text-gray-700">Skills</h2>
+            <div class="skills flex flex-wrap gap-2">
+                <!-- Skill items will be dynamically added here -->
             </div>
         </section>
+    </main>
 
+    <script src="static/index.js"></script>
 
-    </div>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
-    <script src="portofolio-script.js"></script>
 </body>
 </html>
-
-
-
